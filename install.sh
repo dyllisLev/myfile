@@ -1,3 +1,4 @@
+#curl -sSL https://raw.githubusercontent.com/dyllisLev/myfile/main/install.sh | sh
 pip install flaskfarm
 find / -xdev -type d -name "flaskfarm" -exec sh -c 'pip install -r "$0/files/requirements_normal.txt"' {} \;
 
