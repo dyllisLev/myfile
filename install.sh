@@ -6,6 +6,6 @@ mkdir -p ~/ff && cd ~/ff && curl -O https://raw.githubusercontent.com/dyllisLev/
 
 mkdir -p ~/ff/data
  
-echo "path_data: ~/ff/data" > ~/ff/data/config.yaml
+echo "path_data: /home/codespace/ff/data" > ~/ff/data/config.yaml
 echo "path_dev: /workspaces" >> ~/ff/data/config.yaml
 echo "debug: true" >> ~/ff/data/config.yaml
