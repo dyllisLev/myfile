@@ -17,7 +17,7 @@ do
     pip install --upgrade FlaskFarm
 
     # Run FlaskFarm with specified configuration
-    python -m flaskfarm.main --repeat ${COUNT} --config "~/ff/data/config.yaml"
+    python -m flaskfarm.main --repeat ${COUNT} --config "/home/codespace/ff/data/config.yaml"
 
     # Store exit code
     RESULT=$?
